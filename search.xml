@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Charles的安装和配置]]></title>
+    <url>%2F2018%2F08%2F21%2FCharles%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[前言 对于移动端的测试，我们经常会使用一些工具来进行抓包，来查看一些返回数据，接口异常的url等等。因为我现在用的是Mac,所以对Mac上使用Charles比较熟悉。对于https请求，抓到的数据因为经过了加密，需要安装证书才能解释。 Charles的下载 下载和安装Charles，在Charles官网下载https://www.charlesproxy.com/download/ Charles配置抓取HTTP请求 1、Charles设置系统代理在首次启动 Charles 后，Charles会请求你给它设置系统代理的权限。Charles 设置成系统代理时，选择菜单中的 “Proxy” -&gt; “Mac OS X Proxy” 来将 Charles 设置成系统代理。如下图所示： 2、配置HTTP代理 在proxy中选取proxy settings….在端口填上8888端口，够选SOCKS proxy，然后OK 3、配置好步骤1、2就可以抓取到http请求了。手机上抓取请求 手机连接wifi，设置网络的代理服务器为该电脑的ip地址（打开mac电脑终端，输入ifconfig就可以看到了），手机配置代理端口为8888保存就可以抓取http请求了。 Mac安装SSL Certificates 电脑安装SSL Certificates之后，才能抓取一些HTTPS的请求 1、在Charles的菜单Help选择“SSL Proxying &gt; Install Charles Root Certificate” 会自动打开钥匙串访问窗口。 2、在钥匙串访问窗口，我们找到”Charles Proxy…”，然后双击，弹出信任选项，选择始终信任手机安装证书 安卓手机安装证书的 在电脑的钥匙串找到charles这个证书，保存格式为然后把证书导出到桌面，然后传到安装。 备注：小米华为等手机在设置—更多设置—系统安全—从存储设备安装–选择文件 安装证书 苹果手机安装证书 iPhone上安装SSL证书，可以通过链https://www.charlesproxy.com/documentation/additional/legacy-ssl-proxying/) 使用iPhone的Safari访问链接 点击安装描述文件弹窗右上角的安装设置SSL 打开charles，在菜单找到Proxy进去 SSL Proxying Settings 点击Add,host填写*，端口port填写443 这样我们可以通过手机查看一些网址，能在charles抓取到一些相关请求和一些接口数据，以明文方式查看https传输的详情 官方安装charles SSL Certificates地址https://www.charlesproxy.com/documentation/using-charles/ssl-certificates/ 关于charles功能使用的一篇文章http://www.cocoachina.com/ios/20180730/24360.html]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F08%2F20%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
