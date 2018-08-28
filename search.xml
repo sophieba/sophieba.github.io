@@ -3,7 +3,10 @@
   <entry>
     <title><![CDATA[小tips]]></title>
     <url>%2F2018%2F08%2F28%2F%E5%B0%8Ftips%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[1、iOS可以用 开发者里的限速设置 2、Android限速测试，在 Mac 电脑上安装 Network Link Conditioner 工具，这个工具可以模拟不同的网络环境，然后手机用使用 Mac分享出的 WiFi 安装 Network Link Conditioner 工具:https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.html 手机如何连接 Mac分享的 WiFi参考：https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.html]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[Charles的安装和配置]]></title>
