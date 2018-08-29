@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[安利小软件]]></title>
     <url>%2F2018%2F08%2F28%2F%E5%AE%89%E5%88%A9%E5%B0%8F%E8%BD%AF%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[限速设置 1、iOS可以用开发者里的限速设置 2、Android限速测试，在 Mac 电脑上安装 Network Link Conditioner 工具，这个工具可以模拟不同的网络环境，然后手机用使用 Mac分享出的 WiFi 安装 Network Link Conditioner 工具:https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.html 手机如何连接 Mac分享的 WiFi参考：https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.htmlShuttle用法 Shuttle是在Mac上管理ssh的工具，官网下载地址：http://fitztrev.github.io/shuttle/ Command settings 命令配置 在mac的右上角找到shuttle的设置-&gt;编辑,然后弹出shuttle.json文件 如图：]]></content>
+    <content type="text"><![CDATA[限速设置 1、iOS可以用开发者里的限速设置 2、Android限速测试，在 Mac 电脑上安装 Network Link Conditioner 工具，这个工具可以模拟不同的网络环境，然后手机用使用 Mac分享出的 WiFi 安装 Network Link Conditioner 工具:https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.html 手机如何连接 Mac分享的 WiFi参考：https://jingyan.baidu.com/article/d45ad1489aaed169552b80a7.htmlShuttle用法 Shuttle是在Mac上管理ssh的工具，官网下载地址：http://fitztrev.github.io/shuttle/ Command settings 命令配置 在mac的右上角找到shuttle的设置-&gt;编辑,然后弹出shuttle.json文件 如图： 1234567891011“cmd”: “VALUE” 设置命令 例如 “cmd”: “ps aux | grep [s]sh”“name”: “VALUE” 设置菜单栏显示的名称“inTerminal”: “VALUE”“theme”: “VALUE” 设置主题~我用的是basic“title”: “VALUE” 这个标题是显示在终端窗口的标题~ Shuttle Command settings示例]]></content>
       <categories>
         <category>测试</category>
       </categories>
